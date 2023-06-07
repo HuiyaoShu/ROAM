@@ -1,0 +1,90 @@
+default:
+  ms:
+    NL: 100
+    TL: 120
+  ss: 
+    NL: 100
+    TL: 200
+  r1: 1
+  r32: 1
+
+alexnet:
+  ms:
+    NL: 
+    TL: 
+  ss:
+    NL: 30
+    TL: 30
+  r1: 
+  r32: 
+
+vgg:
+  ms:
+    NL: 300
+    TL: 120
+  ss:
+    NL: 100
+    TL: 120
+  r1: 
+  r32: 50
+
+vit:
+  ms:
+    NL: 200
+    TL: 60
+  ss:
+    NL: 30
+    TL: 
+  r1: 
+  r32: 500
+
+bert:
+  ms:
+    NL: 300
+    TL: 120
+  ss:
+    NL: 30
+    TL: 1000
+  r1:
+  r32:
+
+mnasnet:
+  ms:
+    NL: 
+    TL: 
+  ss:
+    NL: 
+    TL: 
+  r1: 
+  r32: 
+
+mobilenet:
+  ms:
+    NL: 
+    TL: 
+  ss:
+    NL: 
+    TL: 
+  r1: 
+  r32: 
+
+efficientnet:
+  ms:
+    NL: 200
+    TL: 
+  ss:
+    NL: 100
+    TL: 
+  r1: 100 
+  r32: 
+
+gpt2-XL:
+  ms:
+    NL: 
+    TL: 
+  ss:
+    NL: 100
+    TL: 600
+  r1: 1
+  r2: 1
+  r4: 1

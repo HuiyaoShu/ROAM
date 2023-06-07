@@ -1,0 +1,15 @@
+model name,batch size,number of operators
+alexnet,1,268
+alexnet,32,268
+vgg,1,359
+vgg,32,359
+mnasnet,1,2445
+mnasnet,32,2445
+mobilenet,1,2480
+mobilenet,32,2480
+efficientnet,1,3739
+efficientnet,32,3739
+vit,1,2573
+vit,32,2645
+bert,1,2690
+bert,32,2774

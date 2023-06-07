@@ -1,0 +1,7 @@
+model,batch size,time,simulated memory,overall memory,fragmentation
+alexnet,1,1800,N/A,N/A,N/A
+alexnet,1,3000,1008.45,1008.48,0.04%
+alexnet,1,3200,864.45,864.50,0.01%
+alexnet,1,3400,864.41,864.48,0.01%
+alexnet,1,3600,668.26,668.35,0.02%
+alexnet,1,20740,668.25,668.25,0.00%

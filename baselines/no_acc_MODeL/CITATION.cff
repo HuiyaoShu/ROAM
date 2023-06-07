@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Steiner"
+  given-names: "Benoit"
+  orcid: "https://orcid.org/0000-0002-5767-4976"
+- family-names: "Elhoushi"
+  given-names: "Mostafa"
+- family-names: "Kahn"
+  given-names: "Jacob"
+- family-names: "Hegarty"
+  given-names: "James"
+title: "OLLA: Optimizing the Lifetime and Location of Arrays to Reduce the Memory Usage of Neural Networks"
+doi: 10.48550/arXiv.2210.12924
+date-released: 2022-10-24
+url: "https://arxiv.org/abs/2210.12924"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Steiner"
+    given-names: "Benoit"
+    orcid: "https://orcid.org/0000-0002-5767-4976"
+  - family-names: "Elhoushi"
+    given-names: "Mostafa"
+  - family-names: "Kahn"
+    given-names: "Jacob"
+  - family-names: "Hegarty"
+    given-names: "James"
+  title: "OLLA: Optimizing the Lifetime and Location of Arrays to Reduce the Memory Usage of Neural Networks"
+  doi: 10.48550/arXiv.2210.12924
+  month: 10
+  year: 2022

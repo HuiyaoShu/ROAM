@@ -1,0 +1,4 @@
+model,mode,batch_size,profile.max_mem_fragmentation,simulated_mem_usage
+gpt2-XL,train,1,0.1274697243178973,24115.54999923706
+gpt2-XL,train,2,0.047080954267775726,32604.275024414062
+gpt2-XL,train,4,0.03376848397174893,59130.77502441406
