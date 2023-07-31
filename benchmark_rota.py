@@ -14,15 +14,15 @@ from collections import defaultdict
 from multiprocessing import Process, Pool, Manager
 from dill import pickle, dumps, loads
 
-from rota.olla import torch_graph_importer
-from rota.tools import utils, visualizer
-from rota.tools.load_models import load_model
-from rota.decomposer import subtask_info
-from rota.decomposer.subtask_generator import subtask_generator
-from rota.decomposer.key_points import compute_spans, find_key_points, get_all_activations
-from rota.lao_and_reducer.subtask_solver import Scheduler
-from rota.lao_scheduler.sublao_init import generate_schedulers
-from rota.lao_scheduler.sublao_run import run_scheduler
+from roam.olla import torch_graph_importer
+from roam.tools import utils, visualizer
+from roam.tools.load_models import load_model
+from roam.decomposer import subtask_info
+from roam.decomposer.subtask_generator import subtask_generator
+from roam.decomposer.key_points import compute_spans, find_key_points, get_all_activations
+from roam.lao_and_reducer.subtask_solver import Scheduler
+from roam.lao_scheduler.sublao_init import generate_schedulers
+from roam.lao_scheduler.sublao_run import run_scheduler
 
 
 def err_call_back(err):
@@ -71,7 +71,7 @@ if __name__ == "__main__":
         }
     }
  
-    parser = argparse.ArgumentParser(description="benchmark rota")
+    parser = argparse.ArgumentParser(description="benchmark roam")
     parser.add_argument("-m", "--model", "--models", nargs="+", type=str, default=BENCHMARKS.keys()) 
     parser.add_argument("-n", "--num_iters", type=int, default=1)
     parser.add_argument("--batch_size", nargs="+", type=int)
@@ -79,7 +79,7 @@ if __name__ == "__main__":
     parser.add_argument("--dump-orders", action="store_true")
 
     # Default number of iterations.
-    f = open("./rota/decomposer/config.yaml")
+    f = open("./roam/decomposer/config.yaml")
     settings = yaml.load(f, Loader=yaml.Loader)
     args = parser.parse_args()
     num_iters = args.num_iters

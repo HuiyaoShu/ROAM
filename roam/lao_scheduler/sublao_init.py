@@ -1,8 +1,8 @@
-from rota.tools import utils
-from rota.decomposer import subtask_info
-from rota.decomposer.subtask_generator import subtask_generator
-from rota.decomposer.key_points import compute_spans, find_key_points, get_all_activations
-from rota.lao_and_reducer.subtask_solver import Scheduler
+from roam.tools import utils
+from roam.decomposer import subtask_info
+from roam.decomposer.subtask_generator import subtask_generator
+from roam.decomposer.key_points import compute_spans, find_key_points, get_all_activations
+from roam.lao_and_reducer.subtask_solver import Scheduler
 
 def generate_schedulers(model_name, graph, mode, NL, TL, ratio):
     # Get key_points.

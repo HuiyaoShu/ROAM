@@ -10,9 +10,9 @@ from collections import defaultdict, OrderedDict
 
 import intervaltree
 from intervaltree import IntervalTree, Interval
-from rota.lao_and_reducer import ilp_solver
-from rota.tools import utils
-from rota.tools import dataflow_graph
+from roam.lao_and_reducer import ilp_solver
+from roam.tools import utils
+from roam.tools import dataflow_graph
 
 class Scheduler:
     def __init__(

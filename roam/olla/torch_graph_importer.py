@@ -4,7 +4,7 @@ from collections.abc import Iterable
 
 # TODO: import properly from third-party library
 # import torch_tensorrt.fx.tracer.acc_tracer.acc_ops as acc_tracer
-import rota.olla.acc_tracer.acc_tracer as acc_tracer
+import roam.olla.acc_tracer.acc_tracer as acc_tracer
 # import acc_tracer.acc_tracer as acc_tracer
 
 import numpy as np
@@ -14,8 +14,8 @@ import torch.fx
 import torch.nn.utils._stateless as stateless
 from functorch import make_fx
 from functorch.compile import compiled_function, default_partition
-from rota.tools import dataflow_graph
-from rota.olla.torch import fx_profiler, spill_profiler
+from roam.tools import dataflow_graph
+from roam.olla.torch import fx_profiler, spill_profiler
 # from torch import fx_profiler, spill_profiler
 from torch.fx.passes.shape_prop import ShapeProp
 

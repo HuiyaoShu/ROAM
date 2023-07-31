@@ -9,9 +9,9 @@ import torchvision
 import pandas as pd
 from collections import defaultdict
 from intervaltree import IntervalTree, Interval
-from rota.tools import utils, visualizer
-from rota.tools.load_models import load_model
-from rota.olla import torch_graph_importer
+from roam.tools import utils, visualizer
+from roam.tools.load_models import load_model
+from roam.olla import torch_graph_importer
 from baselines.heuristics import LESCEA, LLFB
 
 BENCHMARKS = {

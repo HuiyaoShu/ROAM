@@ -2,8 +2,8 @@ import torch
 import yaml
 import torchvision
 import torchtext
-from rota.tools import utils
-from rota.olla import torch_graph_importer
+from roam.tools import utils
+from roam.olla import torch_graph_importer
 from multiprocessing import Process
 
 def load_model(model_name, batch_size, device="cpu", opti=False):
@@ -88,7 +88,7 @@ def load_model(model_name, batch_size, device="cpu", opti=False):
     g.name = f"{model_name}_{batch_size}_train"
     num_nodes = len(g.nodes.values())
 
-    f = open("./rota/decomposer/config.yaml")
+    f = open("./roam/decomposer/config.yaml")
     settings = yaml.load(f, Loader=yaml.Loader)
     
     r = "r" + str(batch_size)

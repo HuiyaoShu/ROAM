@@ -6,7 +6,7 @@
 import math
 
 from PIL import Image, ImageDraw
-from rota.tools import utils
+from roam.tools import utils
 
 def draw_schedule(schedule, img_path="./assignment.png"):
     max_ts = 0
